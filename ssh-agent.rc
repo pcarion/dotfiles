@@ -1,3 +1,7 @@
 echo "starting ssh-agent"
+echo "don't forget: ssh-add ~/.ssh/id_rsa"
+
 exec ssh-agent /bin/bash
+
+
 
