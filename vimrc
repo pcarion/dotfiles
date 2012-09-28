@@ -1,3 +1,4 @@
+call pathogen#infect()
 set nocompatible      " We're running Vim, not Vi!
 syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
